@@ -8,9 +8,11 @@ var theShow = $(".hamburger-menu")
 
 
 openMenu.click(function () {
-  theShow.show()
+  // theShow.show()
+  theShow.addClass("active");
  })
 
 closeMenu.click(function () {
-  theShow.hide()
+  // theShow.hide()
+  theShow.removeClass("active");
 })
